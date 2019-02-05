@@ -1,0 +1,46 @@
+html{
+    background-image: url("./etchbg.jpg");
+    background-repeat: no-repeat;
+    /* width: 1200px;
+    height:1300px; */
+    margin-left:300px;
+    padding:0;
+}
+
+
+
+.etched{
+    flex-shrink:1;
+}
+
+.etchSpace{
+    display: grid;
+    position: absolute;
+    z-index:1000;
+    margin-left: 114px;
+    margin-top: 100px;
+    width: 779px;
+    height: 537px;
+    box-shadow: 1px black;
+}
+
+
+#clear{
+
+    color: white;
+    background: black;
+    width: 100px;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+#amountChange{
+
+    color: white;
+    background: black;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+
+}
