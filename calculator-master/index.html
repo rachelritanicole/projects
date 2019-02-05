@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link href="./styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="lcd">
+        <div id="lcd-top">
+          <div id="calc-display" class="display"></div>
+        </div>
+        <div id="lcd-bottom">
+          <div id="total-display" class="display"></div>
+        </div>
+      </div>
+      <div class="keypad">
+        <div class="row">
+          <button id="clear" class="num" type="button">AC</button>
+          <button id="pos-neg" class="num" type="button">+/-</button>
+          <button id="del" class="num" type="button">DEL</button>
+          <button class="btn op" type="button" value="÷">÷</button>
+        </div>
+          <button class="btn num" type="button" value="7">7</button>
+          <button class="btn num" type="button" value="8">8</button>
+          <button class="btn num" type="button" value="9">9</button>
+          <button class="btn op" type="button" value="x">x</button>
+        <div class="row">
+          <button class="btn num" type="button" value="4">4</button>
+          <button class="btn num" type="button" value="5">5</button>
+          <button class="btn num" type="button" value="6">6</button>
+          <button class="btn op" type="button" value="-">-</button>
+        </div>
+        <div class="row">
+          <button class="btn num" type="button" value="1">1</button>
+          <button class="btn num" type="button" value="2">2</button>
+          <button class="btn num" type="button" value="3">3</button>
+          <button class="btn op" type="button" value="+">+</button>
+        </div>
+        <div class="row">
+          <button class="btn num" type="button" value=".">.</button>
+          <button class="btn num" type="button" value="0">0</button>
+          <button id="equal" class="btn" type="button" value="=">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/main.js" type="text/javascript"></script>
+  </body>
+</html>
