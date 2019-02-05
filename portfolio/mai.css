@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+}
+
+.Rules {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ul {
+    width: auto;
+    text-align: left;
+}
+
+#Scoreboard, #Results {
+    display: block;
+    height: 2em;
+}
+
+.Heroes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    justify-content: center;
+}
+
+.Heroes button {
+    width: 10em;
+    height: 3em;
+    margin: 0.5em 0.5em;
+}
