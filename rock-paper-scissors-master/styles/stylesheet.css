@@ -1,0 +1,106 @@
+/*------Stylesheet----*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    text-align: center;
+    color: #02182B;
+}
+/*---------GameCard------------*/
+.game-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+/*-----------CardHeader----------*/
+.header {
+    background: #E6E8E6;
+    border-bottom: .25px lightgrey solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+.header h1 {margin-bottom: 5px;}
+.header h4 {
+    margin: 5px auto 10px auto;
+    opacity: .75;
+}
+/*-----------AnnouncmentArea---------*/
+.game-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+#win-message {margin-bottom: 25px;}
+.game-screen > * {margin: 25px 0 0 0;}
+
+/*-------------InfoCards--------*/
+.score-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5px;
+}
+.score-board {
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   width: 33%;
+   margin: 5px 5px 5px 5px;
+   border-radius: 3px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.score-label {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #E6E8E6;
+    padding: 5px;
+    font-size: 15px;
+    border-bottom: .25px lightgrey solid;
+} 
+.score {
+    margin: auto 0;
+    padding: auto 0;
+    font-size: 3.5em;
+}
+/*-----------UserControls--------*/
+.controls  {
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+}
+.buttons { 
+    margin: 5px 5px 5px 5px;
+    background-color: #0197F6;
+    border: none;
+    border-radius: 3px;
+    width: 33%;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#reset-button {
+    width: 100%;
+    background-color: red; 
+}
+#reset-button:hover {
+    background-color: rgb(225, 0, 0);
+    
+}
+.buttons:hover {
+    background-color: rgb(0, 138, 231);
+   
+}
+.buttons:focus {
+    outline-color: #fff;
+}
+
+
+
