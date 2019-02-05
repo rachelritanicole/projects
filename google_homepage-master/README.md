@@ -1,0 +1,1 @@
+I will be practicing on recreating the google home page with HTML + CSS for the odin project
