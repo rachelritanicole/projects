@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Login</title>
+
+   <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin" id="verifyForm">
+      <a href="index.html"><img class="mb-4" width="100%" alt="" src="images/laserstuff.png"></a>
+      <h1 class="h3 mb-3 font-weight-normal">Please verify your account</h1>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" id="emailInputVerify" class="form-control" placeholder="Email address" required autofocus>
+      <label for="inputPassword" class="sr-only">Verification Code</label>
+      <input type="password" id="codeInputVerify" class="form-control" placeholder="Verification Code" pattern=".*" required>
+
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Verify</button>
+      <button class="btn btn-lg btn-warning btn-block" onclick=" relocate_home()">Back to Home</button>
+      <p class="mt-5 mb-3 text-muted">&copy; Rachel Nicole 2019</p>
+    </form>
+
+
+    <!-- Cognito Authorization scripts -->
+    <script src="js/vendor/jquery-3.1.0.js"></script>
+    <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+    <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognito-auth.js"></script>
+    <script>
+      function relocate_home()
+      {
+           location.href = "index.html";
+      } 
+    </script>
+
+  </body>
+</html>
